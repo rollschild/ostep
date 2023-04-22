@@ -40,6 +40,8 @@
     - for std input/output/error
 - Start the program at the entry point, `main()`
   - OS transfers control of CPU to the newly created process
+- When an I/O completes, the process that issued it is _not necessarily_ run right away
+  - rather, whatever was running at the time keeps running
 
 ## Process States
 
